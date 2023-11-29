@@ -1,0 +1,11 @@
+{
+  "name": "Minimal airoboros",
+  "inference_params": {
+    "input_prefix": "USER: ",
+    "input_suffix": "ASSISTANT: ",
+    "antiprompt": [
+      "USER: "
+    ],
+    "pre_prompt": "A chat."
+  }
+}

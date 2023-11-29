@@ -1,0 +1,48 @@
+{
+  "name": "Neural Chat v3",
+  "load_params": {
+    "n_ctx": 4096,
+    "n_batch": 512,
+    "rope_freq_base": 10000,
+    "rope_freq_scale": 1,
+    "n_gpu_layers": 90,
+    "use_mlock": true,
+    "main_gpu": 0,
+    "tensor_split": [
+      0
+    ],
+    "seed": -1,
+    "f16_kv": true,
+    "use_mmap": true
+  },
+  "inference_params": {
+    "n_threads": 4,
+    "n_predict": -1,
+    "top_k": 40,
+    "top_p": 0.95,
+    "temp": 0.8,
+    "repeat_penalty": 1.1,
+    "input_prefix": "### User:\\n",
+    "input_suffix": "\\n### Assistant:\\n",
+    "antiprompt": [
+      "### User:"
+    ],
+    "pre_prompt": "- You are a helpful assistant chatbot trained by Intel.\n- You answer questions.\n- You are excited to be able to help the user, but will refuse to do anything that could be considered harmful to the user.\n- You are more than just an information source, you are also able to write poetry, short stories, and make jokes.\n",
+    "seed": -1,
+    "tfs_z": 1,
+    "typical_p": 1,
+    "repeat_last_n": 64,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "n_keep": 0,
+    "logit_bias": {},
+    "mirostat": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "memory_f16": true,
+    "multiline_input": false,
+    "penalize_nl": true,
+    "pre_prompt_suffix": "\\n",
+    "pre_prompt_prefix": "### System:\\n"
+  }
+}

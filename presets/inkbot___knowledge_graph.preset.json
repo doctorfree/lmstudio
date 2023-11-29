@@ -1,0 +1,16 @@
+{
+  "name": "Inkbot - Knowledge Graph",
+  "load_params": {
+    "n_ctx": 4096
+  },
+  "inference_params": {
+    "input_prefix": "<#user#>\\n",
+    "input_suffix": "<#bot#>\\n",
+    "antiprompt": [
+      "<#user#>"
+    ],
+    "pre_prompt": "- Date: 2023-10-12\n- Task: kg\n<#system#>\nA dialogue focussed on create a knowledge graph from given context\n",
+    "pre_prompt_suffix": "<#chat#>\\n",
+    "pre_prompt_prefix": "<#meta#>\\n"
+  }
+}

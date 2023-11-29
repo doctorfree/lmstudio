@@ -1,0 +1,11 @@
+{
+  "name": "MAmmoTH programming",
+  "inference_params": {
+    "input_prefix": "### Instruction: ",
+    "input_suffix": "### Response:",
+    "antiprompt": [
+      "### Instruction: "
+    ],
+    "pre_prompt": "Below is an instruction that describes a task. Write a response that appropriately completes the request."
+  }
+}

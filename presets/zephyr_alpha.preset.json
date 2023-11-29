@@ -1,0 +1,12 @@
+{
+  "name": "Zephyr alpha",
+  "inference_params": {
+    "input_prefix": "<|user|>\\n",
+    "input_suffix": "</s>\\n<|assistant|>\\n",
+    "antiprompt": [
+      "<|user|>\\n"
+    ],
+    "pre_prompt_prefix": "<|system|>\\n",
+    "pre_prompt_suffix": "</s>\\n"
+  }
+}

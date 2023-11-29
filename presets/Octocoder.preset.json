@@ -1,0 +1,13 @@
+{
+  "name": "Octocoder",
+  "inference_params": {
+    "input_prefix": "Question:",
+    "input_suffix": "Answer:",
+    "antiprompt": [
+      "Question:"
+    ],
+    "pre_prompt": "",
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": ""
+  }
+}

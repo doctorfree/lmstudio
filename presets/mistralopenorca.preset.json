@@ -1,0 +1,13 @@
+{
+  "name": "MistralOpenOrca",
+  "inference_params": {
+    "input_prefix": "<|im_start|>user\\n",
+    "input_suffix": "<|im_end|>\\n<|im_start|>assistant\\n",
+    "antiprompt": [
+      "<|im_start|>",
+      "<|im_end|>"
+    ],
+    "pre_prompt": "You are MistralOrca, a large language model trained by Alignment Lab AI. Write out your reasoning step-by-step to be sure you get the right answers!",
+    "pre_prompt_prefix": "<|im_start|>system\\n",
+    "pre_prompt_suffix": "<|im_end|>\\n"}
+}
