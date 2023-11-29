@@ -1,10 +1,6 @@
 # LM Studio
 
-LM Studio JSON configuration file format, Linux AppImage, and a collection of example presets
-
-## LM Studio for Linux
-
-- [LM Studio AppImage](LM_Studio.AppImage)
+LM Studio JSON configuration file format and a collection of example presets
 
 ## Config map and Schema
 
